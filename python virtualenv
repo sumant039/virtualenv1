@@ -1,0 +1,40 @@
+C:\Users\Asus>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^Z
+
+
+1)C:\Users\Asus>virtualenv python
+
+2) C:\Users\Asus>virtualenv venv(virtual-name)
+Using base prefix 'c:\\python3.7'
+New python executable in C:\Users\Asus\venv\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+
+
+3)C:\Users\Asus>virtualenv activate
+Using base prefix 'c:\\python3.7'
+New python executable in C:\Users\Asus\activate\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+
+4) C:\Users\Asus>python -m virtualenv python2.7
+Using base prefix 'C:\\python3.7'
+New python executable in C:\Users\Asus\python2.7\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+5) C:\Users\Asus>virtualenv t2 -p C:\Python27\python2.7\python.exe
+Running virtualenv with interpreter C:\Python27\python2.7\python.exe
+Already using interpreter C:\Python27\python2.7\python.exe
+New python executable in C:\Users\Asus\t2\Scripts\python.exe
+Installing setuptools, pip, wheel...
+Done
+
+6) C:\Users\Asus>cd t2
+
+7) C:\Users\Asus\t2>cd Scripts
+8) C:\Users\Asus\t2\Scripts>activate
